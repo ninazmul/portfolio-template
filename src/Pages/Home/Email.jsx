@@ -23,7 +23,7 @@ const Email = () => {
             title: "Email sent successfully!",
             text: "Your message has been sent.",
           });
-          form.current.reset(); // Reset the form after successful email send
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
