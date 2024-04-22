@@ -3,6 +3,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Services from "../Home/Services";
 import video from "../../../public/video.mp4"
+import about from "../../../public/about me.webp";
 const About = () => {
 
 
@@ -10,7 +11,7 @@ const About = () => {
     <div id="about">
       <div className="flex flex-col lg:flex-row items-center gap-4">
         <div className="md:w-1/2">
-          <img src="../../../public/about me.webp" alt="" />
+          <img src={about} alt="" />
         </div>
         <div className="lg:w-1/2">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal text-start rounded-lg gradient-text uppercase py-2 md:py-4">
